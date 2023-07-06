@@ -1,0 +1,37 @@
+{
+  "menu": [
+    {
+      "id": 1,
+      "name": "Margherita Pizza",
+      "price": 8.99,
+      "availability": true
+    },
+    {
+      "id": 2,
+      "name": "Pasta Carbonara",
+      "price": 12.99,
+      "availability": true
+    },
+    {
+      "id": 3,
+      "name": "Chicken Biryani",
+      "price": 10.99,
+      "availability": false
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "customer_name": "disha",
+      "dishes": [
+        {
+          "id": 2,
+          "name": "Pasta Carbonara",
+          "price": 12.99,
+          "availability": true
+        }
+      ],
+      "status": "received"
+    }
+  ]
+}
